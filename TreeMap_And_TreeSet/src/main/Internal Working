@@ -1,0 +1,29 @@
+*TreeSet
+
+1. A TreeSet is implemented as a self-balancing binary search tree, specifically a red-black tree.
+2. The red-black tree is a type of binary search tree that balances its height to ensure fast access and efficient updates.
+3. In a red-black tree, each node has a color - red or black - and the tree is balanced such that no two red nodes are adjacent,
+4. and the black height (the number of black nodes along any path from the root to a leaf) is the same for all paths.
+5. When an element is added to a TreeSet, it is inserted into the appropriate position in the red-black tree based on its natural ordering
+6. The red-black tree then re-balances itself if necessary to maintain its balance properties.
+7. When searching for an element in a TreeSet, the red-black tree is traversed in a manner similar to a binary search,
+8. comparing the target element to the elements at each node and following the appropriate branch until the target is found or determined to be absent.
+7. Similarly, when removing an element from a TreeSet, the element is located within the red-black tree and removed,
+8. after which the tree is rebalanced if necessary to maintain its balance properties.
+9. The internal workings of a TreeSet ensure that its operations have a time complexity of O(log n),
+10.making it an efficient data structure for maintaining sorted sets of elements.
+
+*TreeMap
+
+1. A TreeMap is implemented as a self-balancing binary search tree, specifically a red-black tree.
+2. The red-black tree is a type of binary search tree that balances its height to ensure fast access and efficient updates.
+3. In a red-black tree, each node has a color - red or black - and the tree is balanced such that no two red nodes are adjacent,
+4. and the black height (the number of black nodes along any path from the root to a leaf) is the same for all paths.
+5. When an element is added to a TreeMap, it is inserted into the appropriate position in the red-black tree based on its key's natural ordering
+6. The red-black tree then rebalances itself if necessary to maintain its balance properties.
+7. When searching for an element in a TreeMap, the red-black tree is traversed in a manner similar to a binary search,
+8. comparing the target key to the keys at each node and following the appropriate branch until the target is found or determined to be absent.
+9. Similarly, when removing an element from a TreeMap, the element is located within the red-black tree and removed,
+10. after which the tree is rebalanced if necessary to maintain its balance properties.
+11. The internal workings of a TreeMap ensure that its operations have a time complexity of O(log n),
+12. making it an efficient data structure for maintaining sorted maps of key-value pairs.
