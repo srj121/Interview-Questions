@@ -1,0 +1,31 @@
+Custom annotations are a way to add metadata to code elements such as classes, methods, and fields in Java
+
+can be used for a wide range of purposes, such as documenting code, enforcing coding standards, and providing hints to code analysis tools.
+
+To define a custom annotation, you need to specify its name, its retention policy (i.e., whether it should be retained at runtime or not),
+ and its target (i.e., the type of code element it can be applied to).
+You can also add parameters to the annotation to provide additional information, such as default values or constraints on the annotated element
+
+
+why to use custome annotation?
+
+Custom annotations can be useful in a variety of situations in Java development. Here are some common reasons to use custom annotations:
+
+Documentation: Annotations can be used to provide additional documentation about code elements. For example,
+ you could define an annotation that describes the purpose of a method or a field, and then use that annotation to generate documentation automatically.
+
+Code organization: Annotations can be used to organize code by grouping related elements together.
+For example, you could define an annotation that indicates that a set of methods should be treated as a transactional unit,
+and then use that annotation to apply the same behavior to all of the methods at once.
+
+Code generation: Annotations can be used to generate code automatically.
+For example, you could define an annotation that generates a set of getters and setters for a field automatically, or an annotation that generates a REST endpoint for a method.
+
+Validation: Annotations can be used to validate code at compile time or at runtime.
+For example, you could define an annotation that enforces constraints on the values of method parameters, or an annotation that checks for the correct usage of a library or framework.
+
+Configuration: Annotations can be used to configure code elements dynamically.
+For example, you could define an annotation that sets the logging level of a class, or an annotation that sets the behavior of a caching mechanism.
+
+Custom annotations provide a flexible and extensible mechanism for adding metadata to code elements in Java.
+By defining and using custom annotations, you can make your code more expressive, more organized, and easier to understand and maintain.
